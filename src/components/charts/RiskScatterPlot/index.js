@@ -32,7 +32,7 @@ const commonProps = {
   blendMode: 'normal',
   yScale: {
     type: 'linear',
-    max: 3,
+    max: 2,
   },
   xScale: { type: 'time' },
   yFormat: (d) => d.toFixed(2),
