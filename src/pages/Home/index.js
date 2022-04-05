@@ -1,8 +1,8 @@
 import React, { useEffect, useCallback } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Typography, Grid, List, ListItem, Link } from '@material-ui/core';
+import { Typography, Link } from '@material-ui/core';
 
-import { RiskList, Line } from 'components/charts/';
+import { Line } from 'components/charts/';
 import Loader from 'components/Loader';
 import Section from 'components/Section';
 
